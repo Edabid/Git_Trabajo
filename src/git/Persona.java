@@ -21,19 +21,19 @@ public abstract class Persona {
     
     protected abstract void getProfesion();
 
-    protected String getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    protected void setNombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    protected int getDNI() {
+    public int getDNI() {
         return DNI;
     }
 
-    protected void setDNI(int DNI) {
+    public void setDNI(int DNI) {
         this.DNI = DNI;
     }
     
