@@ -25,7 +25,5 @@ public class Doctor extends Persona {
         this.turno = turno;
     }
     
-    
-    
-    
+
 }
