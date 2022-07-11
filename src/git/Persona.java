@@ -8,6 +8,35 @@ package git;
  *
  * @author User
  */
-public class Persona {
+public abstract class Persona {
+    
+    protected String nombre;
+    protected int DNI;
+    
+    
+    public Persona(String nombre, int DNI){
+        this.nombre = nombre;
+        this.DNI = DNI;
+    }
+    
+    protected abstract void getProfesion();
+
+    protected String getNombre() {
+        return nombre;
+    }
+
+    protected void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    protected int getDNI() {
+        return DNI;
+    }
+
+    protected void setDNI(int DNI) {
+        this.DNI = DNI;
+    }
+    
+    
     
 }
